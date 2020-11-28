@@ -1,15 +1,13 @@
-.App {
-  background-color: greenyellow;
-}
 img {
   height: 100px;
   width: 100px;
-}
-h3 {
-  text-align: center;
 }
 .container {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+}
+
+.scoreAndround {
+  background-color: aqua;
 }

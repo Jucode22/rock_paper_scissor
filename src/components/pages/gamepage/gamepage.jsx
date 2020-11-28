@@ -1,16 +1,16 @@
 import React from "react";
-import CHOICE_DATA from "./components/CHOICE_DATA";
-import "./App.css";
-import { getCompChoice } from "./functions/getCompChoice";
+import CHOICE_DATA from "../../CHOICE_DATA";
+import "./gamepage.styles.scss";
+import { getCompChoice } from "../../../functions/getCompChoice";
 
-import UserChoice from "./components/user-choice/user-choice.compoment";
-import CompChoice from "./components/comp-choice/comp-choice.components";
-import CurrentRoundDisplay from "./components/current-round-display/current-round-display.componet";
-import Score from "./components/score/score.component";
-import WhoWinsText from "./components/who-wins-text/who-wins-text";
-import TryAgainButton from "./components/try-again-button/try-again-button.component";
+import UserChoice from "../../user-choice/user-choice.compoment";
+import CompChoice from "../../../components/comp-choice/comp-choice.components";
+import CurrentRoundDisplay from "../../user-choice/user-choice.compoment";
+import Score from "../../../components/score/score.component";
+import WhoWinsText from "../../../components/who-wins-text/who-wins-text";
+import TryAgainButton from "../../../components/try-again-button/try-again-button.component";
 
-class App extends React.Component {
+class Gamepage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -145,4 +145,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default Gamepage;

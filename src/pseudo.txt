@@ -1,0 +1,32 @@
+pages
+- start pages
+- game pages
+
+variables/components
+- currentRound
+- roundLimit
+- userScore
+- compScore
+- TryAgainButton
+
+functions 
+- getCompChoice
+- getUserChoice
+- compareChoices
+- incrementScore()
+- printResult()
+- printFinalResult()
+
+on the start page:
+button with "best out of __custom__"
+the custom is supposed to be filled with an odd number
+if the user tries to press the button when there is not an odd number then it alerts the user to input an odd number
+if there is an odd number then the user presses the button and we get redirected to the game page
+
+on the game page:
+    what is displayed:
+        there are 3 buttons with rock paper scissors, the user has to press one option 
+        text about current round
+        text about current score 
+            
+
